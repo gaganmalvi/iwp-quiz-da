@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800,900&display=swap');
+
+.heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: pink;
+    margin-bottom: 1rem;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.intro:hover {
+    background-color: beige;
+    color: #000;
+}
+
+.Quiz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    height: 71vh;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 1rem;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.btn-submit {
+    font-family: 'Inter', sans-serif;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-submit:hover {
+    background-color: #000;
+    color: pink;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: bottom;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 1rem;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.gh-link {
+    text-decoration: none;
+    color: black;
+}

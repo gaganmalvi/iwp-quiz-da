@@ -1,0 +1,84 @@
+<!--
+    Simple quiz site
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            The Weird Quiz
+        </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+        <script src="assets/js/default.js"></script>
+    </head>
+    <body>
+        <h1 align="center" class="heading">
+            The Weird Quiz!
+        </h1>
+        <div class="intro">
+            <p>
+                This is a quiz about weird things. It's not very long, but it's weird.
+            </p>
+        </div>
+        <div class="Quiz">
+            <p>
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="q1">Are cats cute?</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="q1" value="yes">Yes
+                            </td>
+                            <td>
+                                <input type="radio" name="q1" value="no">No
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="q2">Is Android an operating system?</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="q2" value="yes">Yes
+                            </td>
+                            <td>
+                                <input type="radio" name="q2" value="no">No
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="q3">Is Prince amazing?</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="q3" value="yes">Yes
+                            </td>
+                            <td>
+                                <input type="radio" name="q3" value="no">No
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="q4">Is mitochondria the powerhouse of the cell?</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="q4" value="yes">Yes
+                            </td>
+                            <td>
+                                <input type="radio" name="q4" value="no">No
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input class="btn-submit" type="submit" value="Submit" onclick="evaluateQuizResults()">
+                </form>
+            </p>
+            <br>
+        </div>
+        <div class="footer">
+            <p>
+                <a class="gh-link" href="https://github.com/gaganmalvi">Copyright &#169; 2022 Gagan Malvi</a>
+            </p>
+        </div>
+    </body>
+</html>
